@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddDoctorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp">
+
+    <ImageView
+        android:id="@+id/img_doc"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Name"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/speciality_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Speciality" />
+
+    <EditText
+        android:id="@+id/intro_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Introduction" />
+
+    <EditText
+        android:id="@+id/workplace_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Work place name" />
+
+    <EditText
+        android:id="@+id/address_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Address" />
+
+    <EditText
+        android:id="@+id/phone_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Phone Number" />
+
+    <EditText
+        android:id="@+id/days_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Work Days" />
+
+    <EditText
+        android:id="@+id/time_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Work Timing" />
+
+    <EditText
+        android:id="@+id/fees_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Consultation Fees" />
+
+    <EditText
+        android:id="@+id/rating_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Doctor Rating" />
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="darkBlack">#101623</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splashBg">#199A8E</color>
+    <color name="edittext">#F9FAFB</color>
+    <color name="etText">#A1A8B0</color>
+    <color name="lightGray">#E5E7EB</color>
+    <color name="gray">#4DE5E7EB</color>
+    <color name="error">#FF5C5C</color>
+    <color name="dialogText">#A1A8B0</color>
+    <color name="iconText">#A1A8B0</color>
+    <color name="bordingText">#101623</color>
+    <color name="nav_icon">#ADADAD</color>
+    <color name="light_text">#ADADAD</color>
+
+</resources>

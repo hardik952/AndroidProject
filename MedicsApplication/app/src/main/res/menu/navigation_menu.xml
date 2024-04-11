@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <item android:id="@+id/nav_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Home" />
+
+        <item android:id="@+id/nav_add_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Add Doctor" />
+
+        <item android:id="@+id/nav_add_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Add Medicine" />
+
+        <item android:id="@+id/nav_manage_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Manage Medicine" />
+
+        <item android:id="@+id/nav_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Terms and Condition" />
+
+        <item android:id="@+id/nav_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

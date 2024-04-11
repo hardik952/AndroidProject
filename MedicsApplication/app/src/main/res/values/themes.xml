@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MadicsApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#199A8E</item>
+        </style>
+
+    <style name="Base.Theme.AndroidDailog" parent="Theme.Material3.DayNight.NoActionBar"/>
+    
+    <style name="Theme.AndroidDailog" parent="Base.Theme.AndroidDailog"/>
+
+    <style name="DialogCustomTheme"><item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="buttonIcon">
+        <item name="android:shape">rectangle</item>
+        <item name="android:height">70dp</item>
+        <item name="android:width">70dp</item>
+        <item name="backgroundTint">@color/lightGray</item>
+        <item name="android:radius">20dp</item>
+    </style>
+
+    <style name="TextInputEditText">
+        <item name="android:outlineProvider">none</item>
+        <item name="android:textColorHint">@color/etText</item>
+        <item name="hintTextColor">@color/etText</item>
+        <item name="boxBackgroundColor">@color/edittext</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxStrokeColor">@color/ic_launcher_background</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="startIconTint">@color/ic_launcher_background</item>
+        <item name="errorIconTint">@color/error</item>
+        <item name="endIconTint">@color/lightGray</item>
+
+    </style>
+
+    <style name="Theme.MadicsApplication" parent="Base.Theme.MadicsApplication" />
+</resources>
